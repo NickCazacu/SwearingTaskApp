@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">RoastTodo</string>
+
+    <!-- Common -->
+    <string name="action_back">Назад</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_ok">ОК</string>
+
+    <!-- Tasks screen -->
+    <string name="tasks_title">Сегодня</string>
+    <string name="tasks_settings">Настройки</string>
+    <string name="tasks_progress">%1$d из %2$d</string>
+    <string name="tasks_progress_label">Выполнено</string>
+    <string name="tasks_input_hint">Что сегодня точно сделаешь?</string>
+    <string name="tasks_add">Добавить задачу</string>
+    <string name="tasks_empty">Задач нет. Подозрительно спокойный день…</string>
+    <string name="tasks_delete">Удалить</string>
+    <string name="tasks_deleted">Задача удалена</string>
+    <string name="tasks_undo">Вернуть</string>
+
+    <!-- Carry over dialog -->
+    <string name="carry_over_title">Хвосты со вчера</string>
+    <plurals name="carry_over_message">
+        <item quantity="one">Вчера осталась %d невыполненная задача. Перенести на сегодня?</item>
+        <item quantity="few">Вчера остались %d невыполненные задачи. Перенести на сегодня?</item>
+        <item quantity="many">Вчера осталось %d невыполненных задач. Перенести на сегодня?</item>
+        <item quantity="other">Вчера осталось %d невыполненной задачи. Перенести на сегодня?</item>
+    </plurals>
+    <string name="carry_over_confirm">Перенести</string>
+    <string name="carry_over_dismiss">Оставить</string>
+
+    <!-- Notification permission -->
+    <string name="notifications_denied_title">Уведомления выключены</string>
+    <string name="notifications_denied_text">Без них ругать тебя будет некому. Включи, если хочешь, чтобы приложение пинало вовремя.</string>
+    <string name="notifications_enable">Включить</string>
+
+    <!-- Settings screen -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_level_title">Базовый уровень ругани</string>
+    <string name="settings_level_hint">Если долго ничего не делаешь, уровень сам поднимается: +1 через 3 ч и +2 через 6 ч.</string>
+    <string name="level_soft">Мягко</string>
+    <string name="level_medium">Средне</string>
+    <string name="level_hard">Жёстко</string>
+    <string name="level_soft_desc">Дружеский пинок</string>
+    <string name="level_medium_desc">Сарказм и комичные сравнения</string>
+    <string name="level_hard_desc">Жёсткий роаст</string>
+    <string name="settings_interval_title">Интервал проверок</string>
+    <string name="settings_interval_value">%d ч</string>
+    <string name="settings_quiet_title">Тихие часы</string>
+    <string name="settings_quiet_from">С %1$s</string>
+    <string name="settings_quiet_to">До %1$s</string>
+    <string name="settings_quiet_pick_start">Начало тихих часов</string>
+    <string name="settings_quiet_pick_end">Конец тихих часов</string>
+    <string name="settings_ai_title">Использовать ИИ</string>
+    <string name="settings_ai_desc">Фразы генерирует нейросеть. Если сети нет — берутся шаблоны.</string>
+    <string name="settings_ai_not_configured">Прокси не настроен (BASE_URL и APP_TOKEN в local.properties) — будут только шаблоны.</string>
+    <string name="settings_vulgarity_title">Язык (18+)</string>
+    <string name="vulgarity_clean">Без мата</string>
+    <string name="vulgarity_profanity">Мат</string>
+    <string name="vulgarity_personal">На личности</string>
+    <string name="vulgarity_clean_desc">Сленг и сарказм, без мата.</string>
+    <string name="vulgarity_profanity_desc">Ругать с матом. Достаётся только прокрастинации, без перехода на личности.</string>
+    <string name="vulgarity_personal_desc">Мат и обзывательства за лень и слабую силу воли. Внешность, семья, национальность и прочее — всё равно табу.</string>
+    <string name="settings_pause_title">Пауза</string>
+    <string name="settings_pause_today">Пауза на сегодня</string>
+    <string name="settings_pause_resume">Снять паузу</string>
+    <string name="settings_pause_active">Сегодня ругани не будет. Отдыхай (но завтра всё припомним).</string>
+    <string name="settings_pause_inactive">Отключает ругань до конца дня.</string>
+    <string name="settings_debug_title">Отладка</string>
+    <string name="settings_debug_roast_now">Поругай меня сейчас</string>
+    <string name="settings_debug_generating">Генерирую…</string>
+    <string name="settings_debug_result_ai">ИИ: %1$s</string>
+    <string name="settings_debug_result_template">Шаблон: %1$s</string>
+    <string name="settings_debug_no_permission">Уведомления запрещены — показываю фразу здесь.\n%1$s</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Ругань</string>
+    <string name="notification_channel_desc">Напоминания о невыполненных задачах</string>
+    <string name="notification_roast_title">Эй, а задачи кто делать будет?</string>
+    <string name="notification_praise_title">Красава!</string>
+</resources>
